@@ -26,8 +26,8 @@ An Automatic Number Plate Recognition (ANPR) and Smart Gate Logistics system dev
    ```bash
    pip install ultralytics easyocr opencv-python pandas scipy
 
-# To run the pipeline, ensure the input video is in the correct directory and execute the main processing loop. The script will output an annotated video and a CSV log.
+To generate the pipeline, ensure the input video is in the correct directory and execute the main processing loop. The script will output an annotated video and a CSV log.
 # The system generates logs in the following format:
---- SYNCHRONIZED PARKING MANAGEMENT DATABASE ---
+--- SYNCHRONIZED PARKING MANAGEMENT LOGGING DATABASE ---
  Track_ID Vehicle_Number Arrival_Time Departure_Time Waiting_Time
         1     RJ19CA9632     03:00:00       03:00:08     00:00:04
